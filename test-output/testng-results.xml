@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T21:29:33 IST" name="Suite" finished-at="2023-07-23T21:29:54 IST" duration-ms="21505">
+    <groups>
+    </groups>
+    <test started-at="2023-07-23T21:29:33 IST" name="Test" finished-at="2023-07-23T21:29:54 IST" duration-ms="21505">
+      <class name="com.saucedemo.testcases.TC_SingInPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.saucedemo.testcases.TC_SingInPage@4d1c00d0]" started-at="2023-07-23T21:29:31 IST" name="beforeSuite" finished-at="2023-07-23T21:29:33 IST" duration-ms="1602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.testcases.TC_SingInPage@4d1c00d0]" started-at="2023-07-23T21:29:39 IST" name="setUp" finished-at="2023-07-23T21:29:49 IST" duration-ms="9814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.testcases.TC_SingInPage@4d1c00d0]" started-at="2023-07-23T21:29:49 IST" name="verifyLogin" data-provider="ExcelData" finished-at="2023-07-23T21:29:53 IST" duration-ms="4160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.TC_SingInPage@4d1c00d0]" started-at="2023-07-23T21:29:54 IST" name="tearDown" finished-at="2023-07-23T21:29:54 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.saucedemo.testcases.TC_SingInPage@4d1c00d0]" started-at="2023-07-23T21:29:54 IST" name="afterSuite" finished-at="2023-07-23T21:29:56 IST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.saucedemo.testcases.TC_SingInPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "ExtentReports",
+  "reportName": "ExtentReports <img src='C:/Users/Admin/eclipse-workspace/SaucedemoAutomation_Framework/Saucedemo/Logo/ati.png'/>",
+  "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+  "js": "document.getElementsByClassName('logo')[0].style.display='none';",
+  "css": ".badge-primary{background-color:red} .vheader{background-color:#d1cb50} }  "
+}
